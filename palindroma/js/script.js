@@ -1,7 +1,6 @@
 // Esercizio Palindroma JS
 
 // Dichiarazione variabili
-
 var parola = prompt("Inserisci una parola per sapere se è palindroma: ");
 
 if (isPalindroma(parola)) {
@@ -9,6 +8,7 @@ if (isPalindroma(parola)) {
 } else {
   alert("La parola inserita NON è palindroma!");
 }
+
 // Definizione funzione
 function isPalindroma(word) {
   var verify = []; // Array in cui salvo i confronti, lettera per lettera
